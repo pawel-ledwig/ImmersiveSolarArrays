@@ -2,7 +2,7 @@ local isa = require "ISAUtilities"
 
 local function ConsumptionScan(square)
 	--print("running consumption scan")
-	--calculates the power consumption of appliances within a square
+	--calculates the power consumption of appliances within a square -- test commit
 	local powerconsumption = 0;
 	if square:getObjects():size() ~= nil then
 		--print("square has objects")
